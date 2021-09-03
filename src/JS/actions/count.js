@@ -3,7 +3,7 @@
 import { INCREMENT, DECREMENT } from "../constants/count";
 
 // a type and a payload in necessity
-export const incerement = () => {
+export const increment = () => {
   return {
     type: INCREMENT,
   };
